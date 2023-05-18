@@ -39,7 +39,7 @@ for i, r in df_registros.iterrows():
     textbox = driver.find_element_by_xpath("//input[@ng-reflect-name='labelRole']")
     textbox.clear()
     textbox.send_keys(role)
-    #time.sleep(0.5)
+   
 
     print("email")
     textbox = driver.find_element_by_xpath("//input[@ng-reflect-name='labelEmail']")
@@ -51,31 +51,31 @@ for i, r in df_registros.iterrows():
     textbox = driver.find_element_by_xpath("//input[@ng-reflect-name='labelFirstName']")
     textbox.clear()
     textbox.send_keys(first_name)
-    #time.sleep(0.5)
+    
 
     print("sobre-nome")
     textbox = driver.find_element_by_xpath("//input[@ng-reflect-name='labelLastName']")
     textbox.clear()
     textbox.send_keys(last_name)
-    #time.sleep(0.5)
+    
 
     print("telefone")
     textbox = driver.find_element_by_xpath("//input[@ng-reflect-name='labelPhone']")
     textbox.clear()
     textbox.send_keys(phone)
-    #time.sleep(0.5)
+    
 
     print("endereço")
     textbox = driver.find_element_by_xpath("//input[@ng-reflect-name='labelAddress']")
     textbox.clear()
     textbox.send_keys(address)
-    #time.sleep(0.5)
+    
 
     print("empresa")
     textbox = driver.find_element_by_xpath("//input[@ng-reflect-name='labelCompanyName']")
     textbox.clear()
     textbox.send_keys(company)
-    #time.sleep(0.5)
+    
 
     print('enviar')
     botao = driver.find_element_by_xpath("//input[@type='submit']")
